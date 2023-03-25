@@ -8,7 +8,8 @@ This repository repurposes some code from [libvibrant]() and [linux gpu drivers]
 
 - gamma is often reset by blue-light filters like the one built into Gnome and redshift.
 - you cannot combine multiple CTM options at once, without them esetting one another.
-- there's no error handling, so if you make a mistake, anything could happen!
+- there's no error handling, so if you make a mistake, expect the unexpected!
+- it only works if you are using X11. Wayland has basically zero color management features right now...
 
 ## Roadmap
 
