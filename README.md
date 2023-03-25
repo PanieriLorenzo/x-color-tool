@@ -4,6 +4,13 @@ A small tool for adjusting color settings in Xorg. Requires XRandR to be install
 
 This repository repurposes some code from [libvibrant]() and [linux gpu drivers]().
 
+## Usage
+
+There are no pre-built binaries yet. But because Cargo is really nice, it's super easy to compile.
+
+- Clone the repository
+- Run `cargo run -- <arguments>`
+
 ## Caveats
 
 - gamma is often reset by blue-light filters like the one built into Gnome and redshift.
