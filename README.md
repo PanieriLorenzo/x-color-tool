@@ -9,7 +9,7 @@ This repository repurposes some code from [libvibrant]() and [linux gpu drivers]
 There are no pre-built binaries yet. But because Cargo is really nice, it's super easy to compile.
 
 - Clone the repository
-- Run `cargo run -- <arguments>`
+- Run `cargo run -- --help` for detailed usage instructions.
 
 ## Caveats
 
